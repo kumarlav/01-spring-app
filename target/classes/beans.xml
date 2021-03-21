@@ -8,6 +8,8 @@
    
    <bean id = "debit" class = "com.king.beans.DebitCardPayment" />
    
+   <bean id = "zeta" class = "com.king.beans.ZetaCard" />
+   
    <bean id = "paymentProcessor" class = "com.king.beans.PaymentProcessor" >
    		<constructor-arg ref = "debit" />
    		<property name="payment" ref="credit"></property>

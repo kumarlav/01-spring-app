@@ -21,5 +21,7 @@ public class Main {
 		 * paymentProcessor.setPayment(debit); paymentProcessor.doPayment(2222.0);
 		 */
 		
+		ZetaCard zetaCard = beanFactory.getBean("zeta",ZetaCard.class);
+		
 	} // end of main() method
 } // end of class
